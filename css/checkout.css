@@ -1,0 +1,513 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media all and (max-width: 299px) {
+
+#cartItems {
+	
+	width: 60%;
+	float: left;
+	display: inline;
+	margin: 4% 20% 0;
+		
+}
+
+#cartItems h1{
+	
+	font-family: 'Bebas Neue', cursive;
+	
+}
+
+#items {
+	
+	width: 100%;
+	display: inline-block;
+	margin-top: 2%;
+	border-bottom: medium #000000 solid;
+}
+
+#cartItems img {
+	
+	width: 10%;
+	height: auto;
+	float: left
+	
+}
+
+
+#itemInfo {
+	
+	font-family: 'Rajdhani', sans-serif;
+	float: left;
+	padding: 2px 0 0 10px;
+	
+}
+
+#itemPrice {
+	
+	font-family: 'Rajdhani', sans-serif;
+	float: right;
+	
+}
+
+#finalPrice {
+	
+	display: inline;
+	
+}
+
+#subtotal {
+	
+	font-family: 'Bebas Neue', cursive;
+	display: inline;
+	
+}
+
+#total {
+	
+	font-family: 'Rajdhani', sans-serif;
+	float: right;
+	display: inline;
+	
+}
+
+#editB {
+	
+	width:35%;
+	padding:2px auto auto;
+	font-family: 'Bebas Neue', cursive;
+	font-size:0.5em;
+	background-color: #009209;
+	color:white;
+	outline:none;
+	cursor:pointer;
+	border:solid 1px #000000;
+	height:25px;
+	
+}
+
+#orderInfo {
+	
+	width: 60%;
+	display: inline;
+	float: left;
+	margin: 4% 20% 0;
+	
+}
+
+#orderInfo h1 {
+	
+	font-family: 'Bebas Neue', cursive;
+	
+}
+
+#form {
+		
+	width: 100%;
+	margin: 5% 0 0;
+	display: inline;
+	float: left;
+	
+}
+
+input {
+	
+	font-size: 0.875em;
+	width: 100%;  
+	height: 50px;
+	padding: 0px 15px 0px 15px;
+	background: transparent;
+	outline: none;
+	color: #726659;
+	border: solid 1px #b3aca7;
+  
+}
+
+
+#submit {
+	
+	width: 60%;
+    padding: 0;
+	margin: 5% 25% 0; 
+    font-size: 0.5em;
+	color: #b3aca7;
+	outline:none;
+	cursor: pointer;
+    border: solid 1px #b3aca7;
+
+}
+
+#submit:hover {
+	
+	color:#000000;
+	
+}
+
+
+#orderConfirmation {
+	
+	display: inline;
+	float: left;
+	font-family: 'Rajdhani', sans-serif;
+	width: 100%;
+	text-align: center;
+	margin: 5% 0;
+	
+}
+	
+#orderConfirmation h3 {
+
+	font-family: 'Bebas Neue', cursive;
+	
+}	
+
+#itemsOrdered {
+	
+	font-family: 'Rajdhani', sans-serif;
+	width: auto;
+	text-align: center;
+	
+}
+
+}
+@media all and (min-width: 300px) and (max-width: 1023px) {
+
+#cartItems {
+	
+	width: 60%;
+	float: left;
+	display: inline;
+	margin: 4% 20% 0;
+		
+}
+
+#cartItems h1{
+	
+	font-family: 'Bebas Neue', cursive;
+	
+}
+
+#items {
+	
+	width: 100%;
+	display: inline-block;
+	margin-top: 2%;
+	border-bottom: medium #000000 solid;
+}
+
+#cartItems img {
+	
+	width: 10%;
+	height: auto;
+	float: left
+	
+}
+
+
+#itemInfo {
+	
+	font-family: 'Rajdhani', sans-serif;
+	float: left;
+	padding: 2px 0 0 10px;
+	
+}
+
+#itemPrice {
+	
+	font-family: 'Rajdhani', sans-serif;
+	float: right;
+	
+}
+
+#finalPrice {
+	
+	display: inline;
+	
+}
+
+#subtotal {
+	
+	font-family: 'Bebas Neue', cursive;
+	display: inline;
+	
+}
+
+#total {
+	
+	font-family: 'Rajdhani', sans-serif;
+	float: right;
+	display: inline;
+	
+}
+
+#editB {
+	
+	width:20%;
+	padding:2px auto auto;
+	font-family: 'Bebas Neue', cursive;
+	font-size:0.875em;
+	background-color: #009209;
+	color:white;
+	outline:none;
+	cursor:pointer;
+	border:solid 1px #000000;
+	height:30px;
+	
+}
+
+#orderInfo {
+	
+	width: 60%;
+	display: inline;
+	float: left;
+	margin: 4% 20% 0;
+	
+}
+
+#orderInfo h1 {
+	
+	font-family: 'Bebas Neue', cursive;
+	
+}
+
+#form {
+		
+	width: 100%;
+	margin: 5% 0 0;
+	display: inline;
+	float: left;
+	
+}
+
+input {
+	
+	font-size: 0.875em;
+	width: 100%;  
+	height: 50px;
+	padding: 0px 15px 0px 15px;
+	background: transparent;
+	outline: none;
+	color: #726659;
+	border: solid 1px #b3aca7;
+  
+}
+
+
+#submit {
+	
+	width: 50%;
+    padding: 0;
+	margin: 5% 25% 0; 
+    font-size: 0.875em;
+	color: #b3aca7;
+	outline:none;
+	cursor: pointer;
+    border: solid 1px #b3aca7;
+
+}
+
+#submit:hover {
+	
+	color:#000000;
+	
+}
+
+
+#orderConfirmation {
+	
+	display: inline;
+	float: left;
+	font-family: 'Rajdhani', sans-serif;
+	width: 100%;
+	text-align: center;
+	margin: 5% 0;
+	
+}
+	
+#orderConfirmation h3 {
+
+	font-family: 'Bebas Neue', cursive;
+	
+}	
+
+#itemsOrdered {
+	
+	font-family: 'Rajdhani', sans-serif;
+	width: auto;
+	text-align: center;
+	
+}
+
+}
+
+@media all and (min-width: 1024px) {
+
+#cartItems {
+	
+	width: 45%;
+	float: left;
+	display: inline;
+		
+}
+
+#cartItems h1{
+	
+	font-family: 'Bebas Neue', cursive;
+	
+}
+
+#items {
+	
+	width: 100%;
+	display: inline-block;
+	padding: 12px 0;
+	border-bottom: medium #000000 solid;
+}
+
+#cartItems img {
+	
+	width: 10%;
+	height: auto;
+	float: left
+	
+}
+
+
+#itemInfo {
+	
+	font-family: 'Rajdhani', sans-serif;
+	float: left;
+	padding: 2px 0 0 10px;
+	
+}
+
+#itemPrice {
+	
+	font-family: 'Rajdhani', sans-serif;
+	float: right;
+	
+}
+
+#finalPrice {
+	
+	display: inline;
+	
+}
+
+#subtotal {
+	
+	font-family: 'Bebas Neue', cursive;
+	display: inline;
+	
+}
+
+#total {
+	
+	font-family: 'Rajdhani', sans-serif;
+	float: right;
+	display: inline;
+	
+}
+
+#editB {
+	
+	width:12%;
+	padding:2px auto auto;
+	font-family: 'Bebas Neue', cursive;
+	font-size:0.875em;
+	background-color: #009209;
+	color:white;
+	outline:none;
+	cursor:pointer;
+	border:solid 1px #000000;
+	height:30px;
+	
+}
+
+#orderInfo {
+	
+	width: 45%;
+	display: inline;
+	padding-left: 100px;
+	float: right;
+	
+}
+
+#orderInfo h1 {
+	
+	font-family: 'Bebas Neue', cursive;
+	
+}
+
+#form {
+		
+	width: 500px;
+	margin: 50px auto auto;
+	display: inline;
+	float: left;
+	
+}
+
+input {
+	
+	font-size: 0.875em;
+	width: 470px;  
+	height: 50px;
+	padding: 0px 15px 0px 15px;
+	background: transparent;
+	outline: none;
+	color: #726659;
+	border: solid 1px #b3aca7;
+	border-bottom: none;
+  
+}
+
+
+#submit {
+	
+	width: 502px;
+    padding: 0;
+	margin: -5px 0px 0px 0px;
+  
+    font-size: 0.875em;
+	color: #b3aca7;
+	outline:none;
+	cursor: pointer;
+    border: solid 1px #b3aca7;
+
+}
+
+#submit:hover {
+	
+	color:#000000;
+	
+}
+
+
+#orderConfirmation {
+	
+	display: inline;
+	float: left;
+	font-family: 'Rajdhani', sans-serif;
+	width: 100%;
+	text-align: center;
+	margin: 5% 0;
+	
+}
+	
+#orderConfirmation h3 {
+
+	font-family: 'Bebas Neue', cursive;
+	
+}	
+
+#itemsOrdered {
+	
+	font-family: 'Rajdhani', sans-serif;
+	width: auto;
+	text-align: center;
+	
+}
+	
+
+}
